@@ -26,5 +26,3 @@ for count, chars in zip(category_counts, categories):
 random.shuffle(password_chars)
 password = "".join(password_chars)
 print("Generiertes Passwort:", password)
-
-print("Möchten Sie das Passwort in einer Datei speichern? (ja/nein)")
